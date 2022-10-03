@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-links li {
+  list-style: none;
+  display: inline-flex;
+  padding-top: 8px;
+  padding: 20px;
+}
+
+.overlap {
+  background-color: hsl(207, 33%, 95%);
+  position: absolute;
+  height: 400px;
+  width: 723.5px;
+  border-bottom-left-radius: 35px;
+  left: 47%;
+  z-index: -1;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: hsl(228, 39%, 23%);
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.logo {
+  margin-left: 11%;
+  padding-top: 55px;
+}
+
+.nav-links {
+  margin-left: 42%;
+  padding-top: 50px;
+}
+
+.login {
+  margin-left: 60px;
+  color: grey;
+  font-weight: 300;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  margin-left: 11%;
+  margin-top: 6%;
+}
+
+span {
+  width: 45px;
+  background-color: black;
+  margin-right: 5%;
+  border-radius: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: white;
+  font-size: 13px;
+}
+
+.illustration {
+  width: 60%;
+  margin-left: 270px;
+  position: fixed;
+}
+
+.content1 {
+  text-transform: uppercase;
+  margin-top: 5%;
+  line-height: 6vh;
+}
+
+.content2 {
+  margin-top: 7%;
+  font-size: 18px;
+}
+
+.content3 {
+  font-size: 18px;
+  margin-top: 2%;
+}
+
+.main-left-section {
+  display: flex;
+  margin-top: 10%;
+}
+
+.mono {
+  font-size: 13.5px;
+  color: gray;
+  font-weight: 200;
+}
+
+.main-left {
+  margin-top: 35px;
+}
+
+button {
+  width: 170px;
+  padding: 10px;
+  background-color: hsl(0, 100%, 68%);
+  outline: none;
+  color: white;
+  border: none;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.preview {
+  margin-top: 3%;
+  text-transform: uppercase;
+  margin-left: 6%;
+  font-size: 13px;
+  color: gray;
+  letter-spacing: 2px;
+}
